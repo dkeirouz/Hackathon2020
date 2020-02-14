@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackathon2020", "Hackathon2020\Hackathon2020.csproj", "{A73462F8-D005-4111-B2D1-6B68043C8C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F89DF7F2-140F-4F35-A011-1B929453D078}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A73462F8-D005-4111-B2D1-6B68043C8C19} = {A73462F8-D005-4111-B2D1-6B68043C8C19}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73462F8-D005-4111-B2D1-6B68043C8C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73462F8-D005-4111-B2D1-6B68043C8C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73462F8-D005-4111-B2D1-6B68043C8C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73462F8-D005-4111-B2D1-6B68043C8C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F89DF7F2-140F-4F35-A011-1B929453D078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89DF7F2-140F-4F35-A011-1B929453D078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89DF7F2-140F-4F35-A011-1B929453D078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89DF7F2-140F-4F35-A011-1B929453D078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE04D896-56F9-420F-BEFD-9D23CF1475A7}
+	EndGlobalSection
+EndGlobal
